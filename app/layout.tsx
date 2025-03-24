@@ -1,6 +1,6 @@
 import '@/app/ui/global.css'
 import { inter } from '@/app/ui/fonts';
-
+const bcrypt = require('bcryptjs');
 
 export default function RootLayout({
   children,
